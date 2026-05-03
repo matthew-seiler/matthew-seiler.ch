@@ -221,6 +221,18 @@ h1 {
   color: #0f1731;
 }
 
+.paper ol,
+.paper ul {
+  margin: 1.3rem 0;
+  padding-left: 1.6rem;
+  color: #1f2841;
+  line-height: 1.85;
+}
+
+.paper li {
+  margin: 0.4rem 0;
+}
+
 .sources {
   margin-top: 2.5rem;
   padding: 1.6rem;
@@ -238,6 +250,17 @@ h1 {
 .sources p {
   margin: 0;
   color: #354161;
+}
+
+.sources ul {
+  margin: 0;
+  padding-left: 1.4rem;
+  color: #354161;
+  line-height: 1.7;
+}
+
+.sources li {
+  margin: 0.3rem 0;
 }
 
 @keyframes floatIn {
